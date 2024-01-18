@@ -1,0 +1,11 @@
+prefix=c:/Users/MANAS RANJAN GIRI/Desktop/ATS/venv/Library 
+exec_prefix=c:/Users/MANAS RANJAN GIRI/Desktop/ATS/venv/Library 
+libdir=c:/Users/MANAS RANJAN GIRI/Desktop/ATS/venv/Library/lib 
+includedir=c:/Users/MANAS RANJAN GIRI/Desktop/ATS/venv/Library/include 
+modules=0 
+Name: libXML 
+Version: 2.10.4 
+Description: libXML library version2. 
+Requires: 
+Libs: -Lc:/Users/MANAS RANJAN GIRI/Desktop/ATS/venv/Library/lib -lxml2 -liconv -lz 
+Cflags: -Ic:/Users/MANAS RANJAN GIRI/Desktop/ATS/venv/Library/include/libxml 

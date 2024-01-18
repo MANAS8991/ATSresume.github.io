@@ -1,0 +1,10 @@
+prefix=c:/Users/MANAS RANJAN GIRI/Desktop/ATS/venv/Library
+libdir=c:/Users/MANAS RANJAN GIRI/Desktop/ATS/venv/Library/lib
+includedir=c:/Users/MANAS RANJAN GIRI/Desktop/ATS/venv/Library/include
+
+Name: poppler
+Description: PDF rendering library
+Version: 22.12.0
+
+Libs: -L${libdir} -lpoppler
+Cflags: -I${includedir}/poppler

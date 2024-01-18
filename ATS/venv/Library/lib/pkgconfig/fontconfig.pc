@@ -1,0 +1,16 @@
+prefix=c:/Users/MANAS RANJAN GIRI/Desktop/ATS/venv/Library
+includedir=${prefix}/include
+libdir=${prefix}/lib
+
+sysconfdir=c:/Users/MANAS RANJAN GIRI/Desktop/ATS/venv/Library/etc
+localstatedir=c:/Users/MANAS RANJAN GIRI/Desktop/ATS/venv/Library/var
+confdir=${sysconfdir}/fonts
+cachedir=${localstatedir}/cache/fontconfig
+
+Name: Fontconfig
+Description: Font configuration and customization library
+Version: 2.14.1
+Requires: freetype2 >=  21.0.15
+Libs: -L${libdir} -lfontconfig
+Libs.private: c:/Users/MANAS RANJAN GIRI/Desktop/ATS/venv/Library/lib/expat.lib
+Cflags: -I${includedir}

@@ -1,0 +1,8 @@
+poppler_datadir=c:/Users/MANAS RANJAN GIRI/Desktop/ATS/venv/share/poppler
+
+Name: poppler-data
+Description: Encoding files for use with poppler
+Version: 0.4.12
+
+Cflags: -DPOPPLER_DATADIR=c:/Users/MANAS RANJAN GIRI/Desktop/ATS/venv/share/poppler
+
